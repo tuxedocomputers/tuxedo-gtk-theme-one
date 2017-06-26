@@ -32,15 +32,15 @@ sudo make install
 To set the theme in GNOME, run the following commands in Terminal,
 
 ```sh
-gsettings set org.gnome.desktop.interface gtk-theme "TUXEDO One"
-gsettings set org.gnome.desktop.wm.preferences theme "TUXEDO One"
+gsettings set org.gnome.desktop.interface gtk-theme "TUXEDO-One"
+gsettings set org.gnome.desktop.wm.preferences theme "TUXEDO-One"
 ```
 
 To set the theme in Xfce, run the following commands in Terminal,
 
 ```sh
-xfconf-query -c xsettings -p /Net/ThemeName -s "TUXEDO One"
-xfconf-query -c xfwm4 -p /general/theme -s "TUXEDO One"
+xfconf-query -c xsettings -p /Net/ThemeName -s "TUXEDO-One"
+xfconf-query -c xfwm4 -p /general/theme -s "TUXEDO-One"
 ```
 
 ### Requirements
